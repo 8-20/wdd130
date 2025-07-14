@@ -24,7 +24,8 @@ img {
 
 
 main {
-     width: 20rem;
+    max-width: 840px;
+    width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
