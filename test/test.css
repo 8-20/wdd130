@@ -1,35 +1,17 @@
-* {
-	margin: 1rem;
-	padding: 0.5rem;
-}
-aside {
-	font-style: italic;
+#highlight {
+  text-decoration: underline;
+  background-color: light-yellow;
+  padding: 1rem;
 }
 
-/* block-level elements */
-p,
-div,
-main,
-footer {
-	border: 1px solid rgba(0, 0, 0, 0.1);
+.note {
+  font-style: italic;
+  font-weight: bold;
+  color: navy;
 }
 
-p {
-	background-color: #bed;
+.editorial {
+  background: rgb(255 0 0 / 0.2);
+  padding: 10px;
 }
 
-div {
-	background-color: #eee;
-}
-
-/* inline elements */
-img,
-a,
-span,
-button {
-	border: 1px dashed red;
-}
-
-strong {
-	color: red;
-}
