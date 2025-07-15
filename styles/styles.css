@@ -70,8 +70,14 @@ aside img {
 aside h3{
     position: absolute;
     top: 20px;
-    left: 70px;
+    left: 117px;
 }
+aside h2{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
