@@ -1,12 +1,8 @@
 :root {
 --primary-color: #1aa595; /*	Persian Green */
 --secondary-color: #91a03a; /* Moss Green */
---primary2-color: #f6b81a; /* Selective Yellow */ 
---primary3-color: #af916e; /* Lion */
 --accent1-color:  #7bccc5; /* Tiffany Blue */
 --accent2-color: #474647; /* Davy's Gray */
---accent3-color: #d07d31; /* Bronze */
---accent4-color: #5c3f21; /* Kobicha */
 --heading-font: "Montserrat", sans-serif;
 --body-font: "Roboto", sans-serif;
 }
@@ -18,9 +14,14 @@
    
 }
 
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color)
+}
+
 header {
     background-color: var(--primary-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     border: 10px solid var(--primary-color);
     max-width: 100%;
 }
@@ -30,14 +31,13 @@ header img {
 }
 main {
     font-family: var(--body-font);
-  
 }
 
 
 h1, h2 {
     font-family: var(--heading-font);
     background-color:var(--accent1-color);
-    color: #474647;
+    color: var(--accent2-color);
 }
 h3 {
     margin: 10px;
@@ -89,7 +89,7 @@ article {
     left: 150px;
     width: 75%;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.6;
     background-color: var(--accent1-color);
     color: #474647;
 }
