@@ -154,8 +154,7 @@ article {
     justify-content: center;
     position: relative;
 }
-
-h4 {
+.adventure h2 {
     font-family: var(--heading-font);
     font-weight: 100;
     background-color:var(--accent1-color);
