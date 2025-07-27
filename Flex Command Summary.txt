@@ -1,0 +1,14 @@
+FLEX:
+display: flex; #creates the text box
+use width, max-width, etc. to size the items
+flex-direction: column # changes box to columnar form
+flex-start: and flex-end: # to designate where the content starts and ends
+gap: to specify gaps
+justify-content: (flex-start (default), flex-end, center, space-between, space-around, space evenly) # aligns items along the main axis (columns) 	
+align-items: (flex-start, flex-end, center, baseline, stretch (default) # aligns items along the cross axis (rows)
+flex-direction: row (default), row-reverse, column, column-reverse  # defines the direction of the main axis
+order: (... -1 0 (default) 1 ...) # Specifies the order of the flex-item
+align-self: (flex-start, flex-end, center, baseline, stretch # aligns a flex item along the cross axis overriding the align-items value
+flex-wrap: (no-wrap (default), wrap, wrap-reverse # specifies whether flex items are forced on a single line or can be wrapped on multiple lines
+flex-flow: # Shorthand property for flex-direction and flex-wrap
+align-content: (flex-start, flex-end, center, space-between, space-around, space evenly, stretch (default)) # Aligns a flex container's lines within the flex-container when there is extra space on the cross-axis

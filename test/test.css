@@ -1,17 +1,125 @@
-#highlight {
-  text-decoration: underline;
-  background-color: light-yellow;
-  padding: 1rem;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.note {
-  font-style: italic;
-  font-weight: bold;
-  color: navy;
+body {
+	margin: 1rem;
+	font-family: "Open Sans", sans-serif;
 }
 
-.editorial {
-  background: rgb(255 0 0 / 0.2);
-  padding: 10px;
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
 }
 
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/*.navigation li {
+	flex: 1 1 auto;
+}*/
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Acme, Arial, sans-serfi;
+}
+
+article {
+	margin: 1em auto;
+	border: 1px solid rgb(0 0 0 / 10%);
+	padding: 1em;
+	background-color: #ace;
+	width: min(600px, 100%);
+	font-size: 1.2rem;
+}
+
+
+div {
+	margin: 1rem;
+	border: 1px dashed;
+	padding: 1rem;
+}
+
+.one {
+	width: 200px;
+	height: 200px;
+}
+
+.flex {
+	background-color: #aba;
+	/* write declarations here */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid {
+	background-color: #abb;
+	/* enter declarations here */
+	display: grid;
+	place-items: center;
+}
+
+.container2 {
+	/* write declarations here */
+ display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.two {
+	background-color: #ace;
+	height: 100px;
+}
+
+.container3 {
+	padding: 0;
+	/* write declarations here */
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.columns-3 {
+	/* write declaration here */
+	grid-column: 1/4;
+}
+
+.three {
+	margin: .25rem;
+	background-color: #abd;
+}
