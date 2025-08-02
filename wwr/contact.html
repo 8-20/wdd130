@@ -30,7 +30,7 @@
     </header>
     <main>
         <div class="hero">
-            <img src="./images/hero2.webp"alt="Down the River Hero2 Image" width="200">
+            <img src="./images/hero2.webp" alt="Down the River Hero2 Image" width="200">
             <h1 >Let's get acquainted</h1>
             <div class="company-information">
                 <div class="contact-info"> 
@@ -58,14 +58,12 @@
 
                 <form action="/submit-preferences" method="post">
                 
-                        <fieldset>
-                            <div class="info">
-                                <legend>Let us know who you are:</legend>
-                                <label for="fullname">Your Name:</label>
-                                <input type="text" id="fullname" name="fullname">
-                                <label for="useremail">Your Email:</label>
-                                <input type="text" id="useremail" name="useremail">
-                            </div>
+                        <fieldset class="info:">
+                            <legend>Let us know who you are:</legend>
+                            <label for="fullname">Your Name:</label>
+                            <input type="text" id="fullname" name="fullname">
+                            <label for="useremail">Your Email:</label>
+                            <input type="text" id="useremail" name="useremail">
                         </fieldset>
 
                         <fieldset class="radio-legend">
@@ -80,12 +78,10 @@
                         </div>
                         </fieldset>
 
-                        <fieldset>
-                            <div class="news">
-                                <label for="newsletter">Click this box  </label>
-                                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
-                                <label for="newsletter"> if you would like to receive our newsletter.</label>
-                            </div>
+                        <fieldset class="news">
+                            <label for="newsletter">Click this box  </label>
+                            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                            <label for="newsletter"> if you would like to receive our newsletter.</label>
                         </fieldset> 
                         <button type="submit">Click here to send us your request.</button>
                 </form>
