@@ -89,7 +89,7 @@ h1 {
 }
 
 .company-information h2 {
-    text-align: center;;
+    text-align: left;
 }
 
 .contact-info h2 {
@@ -111,7 +111,7 @@ iframe {
 
 }
 .container1 {
-    width: 500px;
+    width: 350px;
     height: 200px;
     margin: 20px;
     perspective:800px;
@@ -140,9 +140,10 @@ iframe {
     backface-visibility: hidden;
 }
 
-.front1 {
-    background-image: url("/wwr/moses.webp");
-    background-repeat: no-repeat;
+.front1 img{
+    height: 100%;
+    width: auto;
+    border-radius: 2rem;
 }
 
 .back1  {
@@ -164,7 +165,7 @@ iframe {
 }
 
 .container2 {
-    width: 500px;
+    width: 350px;
     height: 200px;
     margin: 20px;
     perspective:800px;
@@ -193,9 +194,10 @@ iframe {
     backface-visibility: hidden;
 }
 
-.front2 {
-    background-image: url("/wwr/images/noah.webp");
-    background-repeat: no-repeat;
+.front2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
 }
 
 .back2  {
@@ -217,7 +219,7 @@ iframe {
 }
 
 .container3 {
-    width: 500px;
+    width: 350px;
     height: 200px;
     margin: 20px;
     perspective:800px;
@@ -246,9 +248,10 @@ iframe {
     backface-visibility: hidden;
 }
 
-.front3 {
-    background-image: url("/wwr/images/simon_peter.webp");
-    background-repeat: no-repeat;
+.front3 img {
+    height: 100%;
+    width: auto;
+    border-radius: 2rem;
 }
 
 .back3  {
