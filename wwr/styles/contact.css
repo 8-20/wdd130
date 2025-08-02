@@ -111,7 +111,7 @@ iframe {
 
 }
 .container1 {
-    width: 350px;
+    width: 500px;
     height: 200px;
     margin: 20px;
     perspective:800px;
@@ -140,10 +140,11 @@ iframe {
     backface-visibility: hidden;
 }
 
-.front1 img{
+.front1 img {
     height: 100%;
-    width: auto;
+    width: 100%;
     border-radius: 2rem;
+    
 }
 
 .back1  {
@@ -165,7 +166,7 @@ iframe {
 }
 
 .container2 {
-    width: 350px;
+    width: 500px;
     height: 200px;
     margin: 20px;
     perspective:800px;
@@ -219,7 +220,7 @@ iframe {
 }
 
 .container3 {
-    width: 350px;
+    width: 500px;
     height: 200px;
     margin: 20px;
     perspective:800px;
@@ -250,7 +251,7 @@ iframe {
 
 .front3 img {
     height: 100%;
-    width: auto;
+    width: 100%;
     border-radius: 2rem;
 }
 
