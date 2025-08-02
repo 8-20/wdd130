@@ -370,5 +370,5 @@ button {
 }
 
 button:hover {
-  background-color: darkgreen;
+  background-color: var(--accent2-color);
 }
