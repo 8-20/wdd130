@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="This is the 'Contact' page for Down the River's website. It contains all our various forms of contact information. It also contains a form that potential customers can use to request more information.">
+    <meta name="author" content="Paul A. Scherbel">
+
+    <link rel="stylesheet" href="styles/contact2.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Down the River logo" width="200">
+
+        <nav>
+            <div class="navigation">
+			    <a href="#">Home</a>
+                <a href="#">About Us</a>
+			    <a href="#">Trips</a>
+			    <a href="#">Contact Us</a>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./images/hero3.webp"alt="Down the River Hero Image" width="200">
+            <h1 >Let's get acquainted</h1>
+            <div class="company-information">
+                <div class="contact-info">
+                <h2>Company Information:</h2>
+                <p>Call Us: (307) 200-1000</p>
+                <p>Email: downtheriver@gmail.com</p>
+                <p>Find Us: 111 Iron Rock Road, Wilson, Wyoming 83001</p>
+                </div>
+                <h2 class="staff">Our Experienced  Staff:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20952.706723807325!2d-110.85376366822474!3d43.498437962427474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5353103e1e66b6e5%3A0xe1a4db173730ba0a!2sIron%20Rock%20Rd%2C%20Wyoming%2083001!5e1!3m2!1sen!2sus!4v1754014469187!5m2!1sen!2sus" width="500" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                <div class="container1">
+                    <div class="card1">
+                        <div class="front1"></div>
+                        <div class="back1">
+                            <h2>Moses: Head Tubing Guide</h2>
+                            <p>Has a great deal of experience controlling water. He parted the Red Sea.                        </p>
+                        </div> 
+                    </div>
+                </div>
+
+                <form action="/submit-preferences" method="post">
+                
+                        <fieldset>
+                            <div class="info">
+                                <legend>Let us know who you are:</legend>
+                                <label for="fullname">Your Name:</label>
+                                <input type="text" id="fullname" name="fullname">
+                                <label for="useremail">Your Email:</label>
+                                <input type="text" id="useremail" name="useremail">
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="radio-legend">
+                        <legend>What additional information you would like:</legend>
+                        <div class="radio">
+                            <input type="radio" id="reservation" name="questions" value="reservation" checked>
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="general" name="questions" value="general">
+                            <label for="general">Geneal Inquiry</label>
+                            <input type="radio" id="suggestion" name="fav_color" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="news">
+                                <label for="newsletter">Click this box  </label>
+                                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                                <label for="newsletter"> if you would like to receive our newsletter.</label>
+                            </div>
+                        </fieldset> 
+                        <button type="submit">Click here to send us your request.</button>
+                </form>
+
+                <div class="container2">
+                    <div class="card2">
+                        <div class="front2"></div>
+                        <div class="back2">
+                            <h2>Noah: Assistant Tubing Guide</h2>
+                            <p>Expert at remaining on the water for long periods of time. He was in the ark for more than a year.</p>
+                        </div> 
+                    </div>
+                </div>
+                
+                <div class="container3">
+                    <div class="card3">
+                        <div class="front3"></div>
+                        <div class="back3">
+                            <h2>Simon Peter: Assistant Tubing Guide</h2>
+                            <p>Up and coming assistant guide. This man can actualy walk on water.</p>
+                        </div> 
+                    </div>
+                </div>
+                
+            
+                
+            </div>
+
+        </div>
+    </main>            
+</body>
+</html>

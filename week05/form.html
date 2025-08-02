@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Sample Form</title>
+    <link rel="stylesheet" href="./styles/form.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <form action="/submit-preferences" method="post">
+            
+            <fieldset>
+                <legend>Let us know who you are:</legend>
+                <div class="fcontact-info">
+                    <label for="fullname">Your Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Your Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+
+             <fieldset>
+             <legend>What additional information you would like:</legend>
+
+            <div class="radio">
+                <input type="radio" id="reservation" name="questions" value="reservation" checked>
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="general" name="questions" value="general">
+                <label for="general">Geneal Inquiry</label>
+                <input type="radio" id="suggestion" name="fav_color" value="suggestion">
+                <label for="suggestion">Website Suggestion</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="form-item column1">
+                <label for="newsletter">Click this box is you would like to receive our monthly newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            </div>
+        </fieldset> 
+            <button type="submit">Send your request</button>
+        </form>
+
+    </main>
+
+</body>
+</html>
