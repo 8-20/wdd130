@@ -173,7 +173,7 @@ figcaption {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 170px repeat(3, 225px);
+    grid-template-rows: 105px repeat(3, 223px);
     top: 170px;
     width: 80%;
     margin: 0 10%;
@@ -186,18 +186,18 @@ figcaption {
 
 .contact-info h2 {
     text-align: left;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 10px;
 }
 
 
 .contact-info  p{
     font-family: var(--body-font), sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 0 0 20px;
 }
 .staff  {
     text-align: left;
-    padding: 100px 0 0 100px;
+    padding: 80px 0 0 100px;
 }
 
 
@@ -382,7 +382,6 @@ form {
 
 fieldset {
   display: grid;
-
 }
 
 .info {
@@ -391,10 +390,10 @@ fieldset {
     grid-template-rows: 30px 30px 30px 30px 30px;
     padding: 0;
 }
-.info legend {
+.who {
   font-family: var(--body-font), sans-serif;
   color: var(--accent1-color);
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 600;
   padding: 10px 0 0 0;
 }
@@ -402,6 +401,7 @@ fieldset {
 
 .info label{
   font-family: var(--body-font), sans-serif;
+  font-size: 1rem;
   text-align: left;
   padding:  .5rem 0;
   color: var(--accent1-color);
