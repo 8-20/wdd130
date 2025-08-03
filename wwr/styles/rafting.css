@@ -43,8 +43,7 @@ header img {
 .navigation a {
 	color: var(--accent1-color);
     background-color: var(--primary-color);
-	padding-left: 30px;
-    padding-right: 30px;
+	padding: 0 25px 0 25px;
 	font-size: 1.2rem;
     border: 2px solid var(--accent1-color);
 }
@@ -469,7 +468,7 @@ button:hover {
 
 footer {
     display: grid;
-    grid-template-columns: 92% auto;
+    grid-template-columns: 30% 60% 10%;
     width: 100%;
 }
 
