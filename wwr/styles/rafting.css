@@ -172,7 +172,7 @@ figcaption {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 105px repeat(3, 223px);
+    grid-template-rows: 105px repeat(3, 225px);
     top: 170px;
     width: 80%;
     margin: 0 10%;
@@ -400,7 +400,7 @@ fieldset {
 
 .info label{
   font-family: var(--body-font), sans-serif;
-  font-size: 1rem;
+  font-size: .8rem;
   text-align: left;
   padding:  .5rem 0;
   color: var(--accent1-color);
@@ -409,17 +409,31 @@ fieldset {
 input {
   font-family: Roboto, Arial, sans-serif;
   color: var(--accent2-color);
-  padding: 0.5rem;
-  font-size: 1rem;
+  padding: 0.3rem;
+  font-size: .8rem;
 }
 
+.feedback {
+    display: flex;
+}
 
+.textbox {
+    border: 3px solid var(--secondary-color);
+}
+
+::placeholder {
+    font-family: var(--body-font), sans-serif;
+    color: var(--accent1-color);
+    font-size: .8rem;
+    font-weight: 600;
+}
 .radio {
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template-columns: 16px 1fr;
+  grid-template-columns: 13px 1fr;
   margin: 0 10px;
+  border: 3px solid var(--secondary-color);
 }
 
 .radio label {
@@ -430,7 +444,7 @@ input {
 .radio-legend {   
     font-family: var(--body-font), sans-serif;
     color: var(--accent1-color);
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
 }
 
