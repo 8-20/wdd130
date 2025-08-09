@@ -22,7 +22,7 @@ main p {
     font-family: var(--body-font);
     font-weight: 400;
     font-size: 1em; 
-    border: 2px solid red;
+    border: 2px solid var(--secondary-color);
 }
 
 header {
@@ -31,7 +31,7 @@ header {
     grid-template-columns: 400px 1fr 1fr;
     align-items: center;
     background-color: var(--primary-color);
-    border: 20px solid darkmagenta;
+    border: 20px solid orange;
 
 
 }
@@ -183,7 +183,7 @@ article {
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 140px repeat(4, auto);
     justify-content: center;
-    border: 5px solid red;
+    border: 5px solid var(--secondary-color);
     background-color: var(--primary-color);
 }
 
@@ -202,7 +202,9 @@ article {
 }
 
 .trips p {
-    border: 3px solid var(--secondary-color);
+    font-family: var(--body-font);
+    font-size: 1.2em;
+    border: 3px solid red;
 }
 
 iframe {
