@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="This is the 'Home' page for Down the River's website">
+    <meta name="author" content="Paul A. Scherbel">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Down the River logo" width="200">
+
+        <nav>
+            <div class="navigation">
+			    <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+			    <a href="trips.html">Trips</a>
+			    <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./images/hero2.webp" alt="Down the River Hero Image"width="200">
+            <h1 >Why not try tubing down the river?</h1>
+            <form class=hero1 action="/submit-preferences" method="post">
+                
+                <fieldset class="who">
+                <legend>Please let us know who you are:</legend>
+                <div class="info">
+                    <label for="fullname">Your Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Your Email:</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+                </fieldset>
+                <fieldset class="news">
+                    <label for="newsletter">Click this box  </label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter"> if you would like to receive our newsletter.</label>
+                </fieldset> 
+            </form>
+            <div class="call-to-action">
+                <a href="./trips.html">
+                    <img src="./images/book_button.jpg" alt="Booking Button">
+                </a>
+            </div>
+        </div>
+        
+        <section class="activities">
+            <h2>We offer the following activities:</h2>
+            <img src="./images/scenic.webp" alt="Scenic Excursions"height="400">  
+            <div class="scenic">
+                <h3>Scenic Float</h3>
+                <p>This is our most popular event. Enjoy a relaxing day floating down one of our beautiful rivers with breath-taking views. We suggest several exceptonal locations. You may choose to hire a guide or float on your own. We provide all the necessary equipment.</p>
+            </div>
+            <img src="./images/white_water_tubing.png" alt="White Water Tubing"heigth="400">
+            <div class="white-water">   
+                <h3>White-Water Tubing</h3>
+                <p>If you prefer a bit more excitement, why not try some white-water tubing? We have several locations that are challenging, but safe. All the necessary safety equipment is available to rent. We recommend an experienced guide for these more challenging excursions.</p>
+            </div>
+            <img src="./images/Lunch.webp" alt="Bring along a delicious lunch"height="400">
+            <p>Want to stop in a location of your choice along the river and enjoy a delicious lunch? Just choose one of the lunches from our menu. Your lunch will travel along with you in its own waterproof container. Stop anywhere you wish and enjoy your lunch on the river.</p>
+            <div>
+                <img src="./images/Camping.webp" alt="Camping and Dinner"> 
+                <div class="call-button">
+                    <a href="./trips.html">
+                        <img src="./images/book_button.jpg" alt="Booking Button"width="250" height="180">
+                    </a>
+                </div>  
+            </div>
+    
+            <p>Want to extend the fun? Why not make it an overnight excursion and camp along the river at a spot of your choice. We can also include a delicious dinnner and breakfast to make your experience even more perfect.</p>
+                
+            
+            
+        </section>
+            
+    </main>
+    <footer>
+        <p>©️ 2025 🌈 Down the River 🌈 Paul A. Scherbel 🌈</p>
+        <a href="./images/wireframe_about.webp">
+            <img src="./images/wireframe_about.webp" alt="Wireframe of about us page of the Down the River website" width="40">
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Link to Facebook" width="20">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter_x.svg" alt="Link to Twitter" width="20">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt     Link to Instagram" width="20">
+            </a> 
+        </nav>
+    </footer>
+</body>
+</html>
