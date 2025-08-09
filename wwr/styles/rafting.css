@@ -31,7 +31,7 @@ header {
     grid-template-columns: 400px 1fr 1fr;
     align-items: center;
     background-color: var(--primary-color);
-    border: 20px solid orange;
+    border: 20px solid red;
 
 
 }
@@ -203,7 +203,7 @@ article {
 
 .trips p {
     font-family: var(--body-font);
-    font-size: 1.2em;
+    font-size: 1.2rem;
     border: 3px solid red;
 }
 
