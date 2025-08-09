@@ -18,13 +18,20 @@ body {
     font-weight: 800;   
 }
 
+main p {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 1em; 
+    border: 2px solid red;
+}
+
 header {
     width: 100%;
     display: grid;      
     grid-template-columns: 400px 1fr 1fr;
     align-items: center;
     background-color: var(--primary-color);
-    border: 20px solid darkblue;
+    border: 20px solid darkmagenta;
 
 
 }
@@ -56,11 +63,6 @@ header img {
 	text-decoration: underline;
 }
 
-main {
-    font-family: var(--body-font);
-}
-
-
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
@@ -91,7 +93,7 @@ h1 {
     top: 30px;
     width: 100%;
     text-align: center;
-    font-size: 10em;
+    font-size: 6em;
     color: var(--accent1-color);
     background-color:var(--primary-color);
 }
@@ -181,7 +183,7 @@ article {
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 140px repeat(4, auto);
     justify-content: center;
-    border: 5px solid var(--secondary-color);
+    border: 5px solid red;
     background-color: var(--primary-color);
 }
 
@@ -600,8 +602,6 @@ button:hover {
 table {
     margin: auto;
     border-collapse: collapse;
-    margin: 0 10px 0 10px;
-
     border: 2px solid var(--secondary-color);
     font-family: var(--body-font);
     font-size: .8rem;
@@ -609,20 +609,24 @@ table {
 }
 
 caption {
+    font-size: 1.2em;
   caption-side:top;
   font-weight: bold;
 }
 
 th {
+    font-size: 1.2em;
     text-align:left;
     border: 2px solid var(--secondary-color);
     padding: 8px 10px;
 
 }
 td {
+    font-size: 1.2em;
     text-align:left;
     border: 2px solid var(--secondary-color);
     padding: 8px 10px;
+
 }
 
 .call-button {
