@@ -31,7 +31,7 @@ header {
     grid-template-columns: 400px 1fr 1fr;
     align-items: center;
     background-color: var(--primary-color);
-    border: 20px solid var(--secondary-color);
+    border: 8px solid var(--primary-color);
 
 
 }
@@ -141,6 +141,36 @@ h4 {
     border: 4px solid var(--accent1-color);
     background-color: var(--accent2-color);
 }
+
+.more-information {
+    position: absolute;
+    top: 420px;
+    right: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+
+.more-information:hover {
+    border: 4px solid var(--accent1-color);
+    background-color: var(--accent2-color);
+}
+
+.info-button {
+    width: 300px;
+    height: auto;
+    margin: 20px 0px 40px 50px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border: 20px solid var(--secondary-color)
+}
+
+.info-button:hover {
+    background-color: var(--accent2-color);
+    border: 5px solid var(--accent2-color)
+}
+
 article {
     position: absolute;
     top: 200px;
