@@ -204,7 +204,7 @@ article {
 .trips p {
     font-family: var(--body-font);
     font-size: 1.2rem;
-    border: 3px solid red;
+    border: 3px var(--secondary-color);
 }
 
 iframe {
@@ -602,9 +602,9 @@ button:hover {
 }
 
 table {
-    margin: auto;
+    margin: 5px;
     border-collapse: collapse;
-    border: 2px solid var(--secondary-color);
+    border: 4px solid var(--secondary-color);
     font-family: var(--body-font);
     font-size: .8rem;
     letter-spacing: 1px;
